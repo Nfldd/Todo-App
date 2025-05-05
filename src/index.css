@@ -5,9 +5,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-left: 600px;
+  padding-top: 150px;  
+  background-image: url(./images/todo.jpg);
+  background-position: center;
+  background-size:cover;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.add{
+  position: relative;
+  padding-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(223, 191, 191);
+  font-weight: bold;
+  font-style: italic;
+}
+.edit{
+  position: relative;
+  padding-left: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  background-color: rgb(219, 190, 190);
+  border-radius: 3px;
+  
+}
+.save{
+  position: relative;
+  padding-left: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  background-color: rgb(193, 164, 164);
+  border-radius: 3px;
+}
+.delete{
+  position: relative;
+  padding-left: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  background-color: rgb(247, 134, 134);
+  border-radius: 3px;
+}
+.read{
+  position: relative;
+  padding-left: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  background-color: burlywood;
+  border-radius: 3px;
+}
+.read, .edit, .delete, .save{
+  margin-right: 5px;
+  border: none;
+  font-size:60%;
+}
+.text{
+  border-radius: 5px;
+}
+.space{
+  background-color: #f8e1c4; 
+  padding: 50px; 
+  border-radius: 8px; 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  max-width: 200px;
 }
